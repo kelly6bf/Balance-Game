@@ -1,0 +1,20 @@
+server:
+  port:
+
+spring:
+  profiles:
+    default: dev
+
+  datasource:
+    url:
+    username:
+    password:
+    driver-class-name:
+
+  jpa:
+    hibernate.ddl-auto:
+    open-in-view:
+    show-sql:
+    properties:
+      hibernate.format_sql:
+      hibernate.default_batch_fetch_size:
